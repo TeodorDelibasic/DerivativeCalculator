@@ -4,6 +4,6 @@
 - Supports cosine, sine, natural log and tangent
 - Higher order derivatives
 
-![Preview](Expression.png)
-![Preview](Derivative.png)
-![Preview](Values.png)
+![Preview](Images/Expression.png)
+![Preview](Images/Derivative.png)
+![Preview](Images/Values.png)
