@@ -108,6 +108,8 @@ int main() {
 	Tree* derivative = tree->formDerivative('A');
 	double derivative_value = derivative->evaluate(values);
 
+	Tree* derivative_of_derivative = derivative->formDerivative('A');
+
 	// ---------------------------------------------------------
 
 	std::cout << infix << std::endl;
@@ -123,6 +125,10 @@ int main() {
 	std::cout << "Derivative tree for variable A:" << std::endl;
 	std::cout << *derivative;
 	derivative->printInfixTree(std::cout) << std::endl;
+
+	std::cout << "Second order derivative tree for variable A:" << std::endl;
+	std::cout << *derivative_of_derivative;
+	derivative_of_derivative->printInfixTree(std::cout) << std::endl;
 
 	std::cout << std::endl;
 
